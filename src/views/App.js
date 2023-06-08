@@ -1,13 +1,14 @@
 import logo from './logo.svg';
 import './App.scss';
+import Mycomponent from './Exp/component';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          AHII ĐỒ NGỐC Chơi game nào!
+          Chơi game nào!
         </p>
         <a
           className="App-link"
@@ -17,7 +18,9 @@ function App() {
         >
           Learn React
         </a>
+        <Mycomponent />
       </header>
+
     </div>
   );
 }
